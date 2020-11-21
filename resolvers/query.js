@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const { AuthenticationError } = require('apollo-server');
 
-const { User, Product } = require('../mongo/models.js');
+const { User } = require('../mongo/models.js');
 
 module.exports = {
   Query: {
@@ -57,43 +57,6 @@ module.exports = {
         token: newtoken,
         id: foundUser._id
       };
-    },
-
-    getCategoryProducts: (parent, {category}, context) => {
-      return Product.find({ type: category}).exec();
-    },
-
-    getAudienceProducts: (parent, {audience}, context) => {
-      return Product.find({ audience: audience}).exec();
-    },
-
-    getProduct: (parent, {id}, context) => {
-      return Product.findById(id).exec();
-    },
-
-    search: (parent, {search}, context) => {
-      if(!!search) {
-        const searchQuery = {
-          $or: [
-            { title: { $regex: search, $options: 'i' } },
-            { description: { $regex: search, $options: 'i' } }
-          ]
-        };
-        return Product.find(searchQuery);
-      } else return [];
-    },
-
-    getAllProducts: (parent, {filters}) => {
-      if(filters.audience == 'All' && filters.category == 'All') return Product.find();
-      if(filters.audience == 'All') return Product.find({type: filters.category});
-      if(filters.category == 'All') return Product.find({audience: filters.audience});
-      return Product.find({type: filters.category, audience: filters.audience});
-    },
-
-    users: (parent, params, context) => {
-      if(context.userId === '') throw new AuthenticationError('Must authenticate!');
-      if(!context.admin) throw new AuthenticationError('NOT AUTHORIZED');
-      else return User.find();
     },
 
     user: (parent, { id }, context) => {
