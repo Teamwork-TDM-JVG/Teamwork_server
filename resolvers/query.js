@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const { AuthenticationError } = require('apollo-server');
 
-const { User } = require('../mongo/models.js');
+const { User, Product } = require('../mongo/models.js');
 
 module.exports = {
   Query: {
