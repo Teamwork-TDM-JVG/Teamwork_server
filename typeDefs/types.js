@@ -28,6 +28,23 @@ module.exports = gql`
     RAW
   }
 
+  enum Category {
+    IT,
+    economy,
+    social,
+    music,
+    culture,
+    sports,
+    shopping,
+    local,
+  }
+
+  enum TeamFunction {
+    designer,
+    developer,
+    sales,
+  }
+
   type Image {
     url: String!
     alt: String
@@ -47,15 +64,22 @@ module.exports = gql`
 
   type User {
     id: ID
+    thumbnail: Image
     email: String
+    username: String
     password: String
+    linkedin: String
+    github: String
   }
 
   type ProjectIdea {
     id: ID  
     title: String
     description: String
-    team: [String]
-    # author: [User]
+    thumbnail: Image
+    team: [User]  # Send all of the teammembers, name etc ...
+    author: User
+    functions: [TeamFunction]
+    category: Category
   }
 `;

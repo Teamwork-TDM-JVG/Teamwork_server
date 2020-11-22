@@ -9,20 +9,6 @@ const { User } = require('../mongo/models');
 
 module.exports = {
   Mutation: {
-    createProjectIdea: async (parent, {projectIdeaInput}, context) => {
-      const {title, description, team} = projectIdeaInput
-      console.log(projectIdeaInput);
-      const projectIdea = new ProjectIdea({
-        title,
-        description,
-        team
-      })
-
-      const newProjectIdea = await projectIdea.save();
-      console.log(await newProjectIdea);
-      return newProjectIdea;
-    },
-
     register: async (parent, { user }) => {
       // destructure user
       const { email, password } = user;
@@ -45,6 +31,14 @@ module.exports = {
 
       // return the user
       return newUser;
+    },
+
+    addProjectIdea: async (parent, {projectIdeaInput}, context) => {
+      if(context.userId === '') throw new AuthenticationError('Must authenticate!'); // Checks if logged in, else throws error
+
+      const projectIdea = await new ProjectIdea(projectIdeaInput);
+
+      return projectIdeaInput;
     },
   }
 }

@@ -12,8 +12,11 @@ module.exports = gql`
   }
 
   input UserInput {
+    username: String
     email: String
     password: String
+    github: String
+    linkedin: String
   }
 
   input ImageInput {
@@ -22,9 +25,10 @@ module.exports = gql`
   }
 
   input ProjectIdeaInput {
-    id: ID
     title: String
     description: String
-    team: [String]
+    team: [ID]    # Only give in ID's of teammembers
+    functions: [TeamFunction]   # Gives all of the possible available team functions
+    category: Category
   }
 `;

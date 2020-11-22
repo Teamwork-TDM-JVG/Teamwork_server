@@ -11,6 +11,8 @@ module.exports = gql`
     user(id:ID):User
     checkAdmin(id:ID):AuthData
     renewToken(token: TokenInput):Token
-    getAllProjectIdeas: ProjectIdea
+    getProjectIdea(id:ID): ProjectIdea
+    getAllProjectIdeas: [ProjectIdea]
+    getCategoryProjectIdeas(category: Category): [ProjectIdea]
   }
 `;

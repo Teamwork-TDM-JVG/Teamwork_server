@@ -9,12 +9,14 @@ const mongoose = require('mongoose');
  */
 
 const UserSchema = require('./schemas/user');
+const ProjectIdeaSchema = require('./schemas/projectIdea');
 
 /**
  * Creating mongoose models
  */
 
 const User = mongoose.model('User', UserSchema);
+const ProjectIdea = mongoose.model('ProjectIdea', ProjectIdeaSchema);
 
 /**
  * Exporting the models
@@ -22,5 +24,5 @@ const User = mongoose.model('User', UserSchema);
 
 module.exports = {
   User,
-  ProjectIdea: require("./schemas/projectIdea"),
+  ProjectIdea,
 }

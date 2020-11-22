@@ -9,9 +9,6 @@ const { ProjectIdea } = require("../mongo/models");
 
 module.exports = {
   Query: {
-    getAllProjectIdeas: async (parent, params, context) => {
-      return await ProjectIdea.find({});
-    },
     login: async (parent, { user }, context) => {
       // destructure the user
       const { email, password } = user;
@@ -71,5 +68,10 @@ module.exports = {
       const userData = User.findOne({ _id: id });
       return userData;
     },
+
+    getAllProjectIdeas: async (parent, params, context) => {
+      return await ProjectIdea.find({});
+    },
+    
   },
 };
