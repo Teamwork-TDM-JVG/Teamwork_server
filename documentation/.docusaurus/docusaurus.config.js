@@ -12,7 +12,7 @@ export default {
     "navbar": {
       "title": "Teamwork",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Teamwork Logo",
         "src": "img/logo.svg"
       },
       "items": [

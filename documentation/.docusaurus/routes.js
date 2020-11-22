@@ -9,7 +9,7 @@ export default [
 },
 {
   path: '/Teamwork_server/blog',
-  component: ComponentCreator('/Teamwork_server/blog','e17'),
+  component: ComponentCreator('/Teamwork_server/blog','fcc'),
   exact: true,
 },
 {
@@ -39,12 +39,12 @@ export default [
 },
 {
   path: '/Teamwork_server/blog/tags/blog',
-  component: ComponentCreator('/Teamwork_server/blog/tags/blog','de2'),
+  component: ComponentCreator('/Teamwork_server/blog/tags/blog','95e'),
   exact: true,
 },
 {
   path: '/Teamwork_server/blog/tags/docusaurus',
-  component: ComponentCreator('/Teamwork_server/blog/tags/docusaurus','c74'),
+  component: ComponentCreator('/Teamwork_server/blog/tags/docusaurus','1c8'),
   exact: true,
 },
 {

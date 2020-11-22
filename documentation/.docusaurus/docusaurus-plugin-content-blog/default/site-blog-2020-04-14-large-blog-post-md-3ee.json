@@ -17,12 +17,8 @@
   "title": "A large blog post",
   "readingTime": 4.085,
   "truncated": true,
-  "prevItem": {
+  "nextItem": {
     "title": "Blog Plugin",
     "permalink": "/Teamwork_server/blog/2020/04/14/blog-plugin"
-  },
-  "nextItem": {
-    "title": "Welcome",
-    "permalink": "/Teamwork_server/blog/welcome"
   }
 }

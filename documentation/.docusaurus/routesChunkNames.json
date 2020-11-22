@@ -3,15 +3,15 @@
     "component": "ece76bd1",
     "config": "5e9f5e1a"
   },
-  "/Teamwork_server/blog-e17": {
+  "/Teamwork_server/blog-fcc": {
     "component": "a6aa9e1f",
     "sidebar": "f9012c36",
     "items": [
       {
-        "content": "a04d17d0"
+        "content": "f4217b23"
       },
       {
-        "content": "f4217b23"
+        "content": "a04d17d0"
       },
       {
         "content": "99caf125"
@@ -50,28 +50,28 @@
     "sidebar": "f9012c36",
     "tags": "998bfffc"
   },
-  "/Teamwork_server/blog/tags/blog-de2": {
+  "/Teamwork_server/blog/tags/blog-95e": {
     "component": "6875c492",
     "sidebar": "f9012c36",
     "items": [
       {
-        "content": "a04d17d0"
+        "content": "f4217b23"
       },
       {
-        "content": "f4217b23"
+        "content": "a04d17d0"
       }
     ],
     "metadata": "b3067a10"
   },
-  "/Teamwork_server/blog/tags/docusaurus-c74": {
+  "/Teamwork_server/blog/tags/docusaurus-1c8": {
     "component": "6875c492",
     "sidebar": "f9012c36",
     "items": [
       {
-        "content": "a04d17d0"
+        "content": "f4217b23"
       },
       {
-        "content": "f4217b23"
+        "content": "a04d17d0"
       },
       {
         "content": "99caf125"
