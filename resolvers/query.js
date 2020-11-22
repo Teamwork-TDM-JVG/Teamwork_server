@@ -5,13 +5,12 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const { AuthenticationError } = require('apollo-server');
-
-const { projectIdeaSchema } = require('../mongo/schemas/projectIdea');
+const { ProjectIdea } = require("../mongo/models");
 
 module.exports = {
   Query: {
     getAllProjectIdeas: async (parent, params, context) => {
-      return projectIdeaSchema.find();
+      return await ProjectIdea.find({});
     },
     login: async (parent, { user }, context) => {
       // destructure the user
