@@ -2,7 +2,7 @@ module.exports = {
   title: 'Teamwork',
   tagline: 'Teamwork changes everything',
   url: 'https://teamwork.com',
-  baseUrl: '/',
+  baseUrl: 'Teamwork_server/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

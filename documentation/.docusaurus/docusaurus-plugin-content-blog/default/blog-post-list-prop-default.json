@@ -2,24 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Blog Plugin",
-      "permalink": "/blog/2020/04/14/blog-plugin"
+      "title": "A large blog post",
+      "permalink": "Teamwork_server/blog/2020/04/14/large-blog-post"
     },
     {
-      "title": "A large blog post",
-      "permalink": "/blog/2020/04/14/large-blog-post"
+      "title": "Blog Plugin",
+      "permalink": "Teamwork_server/blog/2020/04/14/blog-plugin"
     },
     {
       "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "permalink": "Teamwork_server/blog/welcome"
     },
     {
       "title": "Hello",
-      "permalink": "/blog/hello-world"
+      "permalink": "Teamwork_server/blog/hello-world"
     },
     {
       "title": "Hola",
-      "permalink": "/blog/hola"
+      "permalink": "Teamwork_server/blog/hola"
     }
   ]
 }

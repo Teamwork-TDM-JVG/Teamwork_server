@@ -1,17 +1,17 @@
 {
-  "/-d7d": {
+  "Teamwork_server/-68b": {
     "component": "ece76bd1",
     "config": "5e9f5e1a"
   },
-  "/blog-4c2": {
+  "Teamwork_server/blog-8a2": {
     "component": "a6aa9e1f",
     "sidebar": "f9012c36",
     "items": [
       {
-        "content": "a04d17d0"
+        "content": "f4217b23"
       },
       {
-        "content": "f4217b23"
+        "content": "a04d17d0"
       },
       {
         "content": "99caf125"
@@ -23,55 +23,55 @@
         "content": "2738c48a"
       }
     ],
-    "metadata": "5c4ee1d6"
+    "metadata": "337a7dfd"
   },
-  "/blog/2020/04/14/blog-plugin-e74": {
+  "Teamwork_server/blog/2020/04/14/blog-plugin-83d": {
     "component": "ccc49370",
     "sidebar": "f9012c36",
     "content": "27362ed2"
   },
-  "/blog/2020/04/14/large-blog-post-4e2": {
+  "Teamwork_server/blog/2020/04/14/large-blog-post-0c6": {
     "component": "ccc49370",
     "sidebar": "f9012c36",
     "content": "3ee8db4f"
   },
-  "/blog/hello-world-d47": {
+  "Teamwork_server/blog/hello-world-3c6": {
     "component": "ccc49370",
     "sidebar": "f9012c36",
     "content": "843d79fe"
   },
-  "/blog/hola-b47": {
+  "Teamwork_server/blog/hola-546": {
     "component": "ccc49370",
     "sidebar": "f9012c36",
     "content": "aeda19be"
   },
-  "/blog/tags-a8a": {
+  "Teamwork_server/blog/tags-df8": {
     "component": "01a85c17",
     "sidebar": "f9012c36",
-    "tags": "9958fd43"
+    "tags": "d5c2732c"
   },
-  "/blog/tags/blog-e9c": {
+  "Teamwork_server/blog/tags/blog-c9e": {
     "component": "6875c492",
     "sidebar": "f9012c36",
     "items": [
       {
-        "content": "a04d17d0"
+        "content": "f4217b23"
       },
       {
-        "content": "f4217b23"
+        "content": "a04d17d0"
       }
     ],
-    "metadata": "007b46c3"
+    "metadata": "7423454b"
   },
-  "/blog/tags/docusaurus-81f": {
+  "Teamwork_server/blog/tags/docusaurus-626": {
     "component": "6875c492",
     "sidebar": "f9012c36",
     "items": [
       {
-        "content": "a04d17d0"
+        "content": "f4217b23"
       },
       {
-        "content": "f4217b23"
+        "content": "a04d17d0"
       },
       {
         "content": "99caf125"
@@ -83,9 +83,9 @@
         "content": "2738c48a"
       }
     ],
-    "metadata": "19840164"
+    "metadata": "d8a008a6"
   },
-  "/blog/tags/facebook-ef5": {
+  "Teamwork_server/blog/tags/facebook-d24": {
     "component": "6875c492",
     "sidebar": "f9012c36",
     "items": [
@@ -93,9 +93,9 @@
         "content": "99caf125"
       }
     ],
-    "metadata": "42da9be5"
+    "metadata": "604c3945"
   },
-  "/blog/tags/hello-a3a": {
+  "Teamwork_server/blog/tags/hello-2b7": {
     "component": "6875c492",
     "sidebar": "f9012c36",
     "items": [
@@ -106,9 +106,9 @@
         "content": "c0a4ca73"
       }
     ],
-    "metadata": "e2e2274d"
+    "metadata": "47d92112"
   },
-  "/blog/tags/hola-6ee": {
+  "Teamwork_server/blog/tags/hola-b18": {
     "component": "6875c492",
     "sidebar": "f9012c36",
     "items": [
@@ -116,30 +116,30 @@
         "content": "2738c48a"
       }
     ],
-    "metadata": "f47ee060"
+    "metadata": "3f16872d"
   },
-  "/blog/welcome-192": {
+  "Teamwork_server/blog/welcome-c62": {
     "component": "ccc49370",
     "sidebar": "f9012c36",
     "content": "a9ae89f1"
   },
-  "/docs-3d3": {
+  "Teamwork_server/docs-c2f": {
     "component": "1be78505",
     "versionMetadata": "f976f453"
   },
-  "/docs/-b73": {
+  "Teamwork_server/docs/-87c": {
     "component": "17896441",
     "content": "7366bc9d"
   },
-  "/docs/doc2-7d1": {
+  "Teamwork_server/docs/doc2-f53": {
     "component": "17896441",
     "content": "991b72a1"
   },
-  "/docs/doc3-6f8": {
+  "Teamwork_server/docs/doc3-9b0": {
     "component": "17896441",
     "content": "225b4c69"
   },
-  "/docs/mdx-155": {
+  "Teamwork_server/docs/mdx-a13": {
     "component": "17896441",
     "content": "45acc928"
   }

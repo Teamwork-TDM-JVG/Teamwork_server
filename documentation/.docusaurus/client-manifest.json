@@ -6,19 +6,19 @@
     "0": [
       1,
       2,
-      4,
-      7,
+      3,
+      5,
       15,
       22,
       26,
-      28,
+      29,
       35,
       0
     ],
     "1": [
       0,
       2,
-      7,
+      5,
       15,
       22,
       26,
@@ -27,24 +27,18 @@
     "styles": [
       0,
       1,
-      7,
-      28,
+      5,
+      29,
       33,
       34,
       2
     ],
-    "~blog/default\\blog-tags-blog-476.json": [
-      3
-    ],
     "@theme/BlogTagsListPage": [
       0,
-      4
+      3
     ],
     "@theme/DocItem": [
-      5
-    ],
-    "~blog/default\\blog-tags-docusaurus-0e0.json": [
-      6
+      4
     ],
     "@theme/DocPage": [
       0,
@@ -57,24 +51,30 @@
       35
     ],
     "@site/docs\\doc3.md": [
-      8
+      6
     ],
     "@site/blog\\2020-04-14-blog-plugin.md": [
-      9
+      7
     ],
     "@site/blog\\2019-05-28-hola.md?truncated=true": [
-      10
+      8
+    ],
+    "~blog/default\\teamwork-server-blog-697.json": [
+      9
     ],
     "@site/blog\\2020-04-14-large-blog-post.md": [
+      10
+    ],
+    "~blog/default\\teamwork-server-blog-tags-hola-052.json": [
       11
     ],
-    "~blog/default\\blog-tags-facebook-038.json": [
+    "@site/docs\\mdx.md": [
       12
     ],
-    "@site/docs\\mdx.md": [
+    "~blog/default\\teamwork-server-blog-tags-hello-244.json": [
       13
     ],
-    "~blog/default\\blog-c06.json": [
+    "~blog/default\\teamwork-server-blog-tags-facebook-4e7.json": [
       14
     ],
     "@theme/BlogTagsPostsPage": [
@@ -85,13 +85,13 @@
     "@site/docs\\doc1.md": [
       16
     ],
-    "@site/blog\\2019-05-29-hello-world.md": [
+    "~blog/default\\teamwork-server-blog-tags-blog-d50.json": [
       17
     ],
-    "@site/docs\\doc2.md": [
+    "@site/blog\\2019-05-29-hello-world.md": [
       18
     ],
-    "~blog/default\\blog-tags-tags-4c2.json": [
+    "@site/docs\\doc2.md": [
       19
     ],
     "@site/blog\\2019-05-30-welcome.md?truncated=true": [
@@ -119,18 +119,18 @@
       1,
       26
     ],
-    "~blog/default\\blog-tags-hello-039.json": [
+    "~blog/default\\teamwork-server-blog-tags-tags-c43.json": [
       27
+    ],
+    "~blog/default\\teamwork-server-blog-tags-docusaurus-a2b.json": [
+      28
     ],
     "@site/src\\pages\\index.js": [
       0,
       2,
-      28
-    ],
-    "@site/blog\\2020-04-14-large-blog-post.md?truncated=true": [
       29
     ],
-    "~blog/default\\blog-tags-hola-ea2.json": [
+    "@site/blog\\2020-04-14-large-blog-post.md?truncated=true": [
       30
     ],
     "D:\\Websites\\Teamwork\\SERVER\\documentation\\.docusaurus\\docusaurus-plugin-content-blog\\default\\blog-post-list-prop-default.json": [
@@ -161,7 +161,7 @@
         {
           "file": "0.d406ab00.js",
           "hash": "3c7d863e4816cc9e7500",
-          "publicPath": "/0.d406ab00.js"
+          "publicPath": "Teamwork_server/0.d406ab00.js"
         }
       ]
     },
@@ -170,7 +170,7 @@
         {
           "file": "1.1a34e906.js",
           "hash": "78bc2193884bcf7cb23a",
-          "publicPath": "/1.1a34e906.js"
+          "publicPath": "Teamwork_server/1.1a34e906.js"
         }
       ]
     },
@@ -178,114 +178,114 @@
       "css": [
         {
           "file": "styles.ff8f9b7e.css",
-          "hash": "fff4c2823d559baf4bc8",
-          "publicPath": "/styles.ff8f9b7e.css"
+          "hash": "5b35c5c9108d5843866b",
+          "publicPath": "Teamwork_server/styles.ff8f9b7e.css"
         }
       ],
       "js": [
         {
-          "file": "styles.14f19621.js",
-          "hash": "fff4c2823d559baf4bc8",
-          "publicPath": "/styles.14f19621.js"
+          "file": "styles.e74995bc.js",
+          "hash": "5b35c5c9108d5843866b",
+          "publicPath": "Teamwork_server/styles.e74995bc.js"
         }
       ]
     },
     "3": {
       "js": [
         {
-          "file": "007b46c3.286807ec.js",
-          "hash": "7149468a7b5ceff3bed3",
-          "publicPath": "/007b46c3.286807ec.js"
+          "file": "01a85c17.708d3f2f.js",
+          "hash": "7e277b3136663758ed2e",
+          "publicPath": "Teamwork_server/01a85c17.708d3f2f.js"
         }
       ]
     },
     "4": {
       "js": [
         {
-          "file": "01a85c17.bd40c766.js",
-          "hash": "a07b175aade77cb4ce90",
-          "publicPath": "/01a85c17.bd40c766.js"
-        }
-      ]
-    },
-    "5": {
-      "js": [
-        {
-          "file": "17896441.2001bb2f.js",
-          "hash": "a532731d0d25fab4e39c",
-          "publicPath": "/17896441.2001bb2f.js"
+          "file": "17896441.6ce3814d.js",
+          "hash": "21155e81589536c979c1",
+          "publicPath": "Teamwork_server/17896441.6ce3814d.js"
         }
       ]
     },
     "6": {
       "js": [
         {
-          "file": "19840164.c3186b17.js",
-          "hash": "d64d78d98596f00f34b7",
-          "publicPath": "/19840164.c3186b17.js"
+          "file": "225b4c69.41a555a4.js",
+          "hash": "6ef18ea8eb6c90cbdd33",
+          "publicPath": "Teamwork_server/225b4c69.41a555a4.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "27362ed2.7a73928f.js",
+          "hash": "6ba77d74484f4f85c597",
+          "publicPath": "Teamwork_server/27362ed2.7a73928f.js"
         }
       ]
     },
     "8": {
       "js": [
         {
-          "file": "225b4c69.2891a3cb.js",
-          "hash": "e5418d9a41c37b7c960f",
-          "publicPath": "/225b4c69.2891a3cb.js"
+          "file": "2738c48a.af106b20.js",
+          "hash": "ab2da9e6b63d7e2cc8bf",
+          "publicPath": "Teamwork_server/2738c48a.af106b20.js"
         }
       ]
     },
     "9": {
       "js": [
         {
-          "file": "27362ed2.2931e2ce.js",
-          "hash": "358dc1da7c8a1bfe2f9d",
-          "publicPath": "/27362ed2.2931e2ce.js"
+          "file": "337a7dfd.a313f255.js",
+          "hash": "62042f39ad557c38dd7c",
+          "publicPath": "Teamwork_server/337a7dfd.a313f255.js"
         }
       ]
     },
     "10": {
       "js": [
         {
-          "file": "2738c48a.2b2ea144.js",
-          "hash": "7d00964b1e7684edb16c",
-          "publicPath": "/2738c48a.2b2ea144.js"
+          "file": "3ee8db4f.e9c14940.js",
+          "hash": "fe1abe89b052aa7c5302",
+          "publicPath": "Teamwork_server/3ee8db4f.e9c14940.js"
         }
       ]
     },
     "11": {
       "js": [
         {
-          "file": "3ee8db4f.faab3cc6.js",
-          "hash": "a40a10f3bddbde3b3500",
-          "publicPath": "/3ee8db4f.faab3cc6.js"
+          "file": "3f16872d.e1546293.js",
+          "hash": "31c175f7235247407d59",
+          "publicPath": "Teamwork_server/3f16872d.e1546293.js"
         }
       ]
     },
     "12": {
       "js": [
         {
-          "file": "42da9be5.75cc9276.js",
-          "hash": "802f7910ea3c652881bd",
-          "publicPath": "/42da9be5.75cc9276.js"
+          "file": "45acc928.3d4d3f1f.js",
+          "hash": "3616d76215eda7bb1086",
+          "publicPath": "Teamwork_server/45acc928.3d4d3f1f.js"
         }
       ]
     },
     "13": {
       "js": [
         {
-          "file": "45acc928.d127efe6.js",
-          "hash": "7358c77b0f74ae429284",
-          "publicPath": "/45acc928.d127efe6.js"
+          "file": "47d92112.8aa54d15.js",
+          "hash": "963a898de48cc9ec5b5d",
+          "publicPath": "Teamwork_server/47d92112.8aa54d15.js"
         }
       ]
     },
     "14": {
       "js": [
         {
-          "file": "5c4ee1d6.b7611247.js",
-          "hash": "868e8b49adabc315d810",
-          "publicPath": "/5c4ee1d6.b7611247.js"
+          "file": "604c3945.ea18bdd7.js",
+          "hash": "d3db86fe26d1cf4ee5bf",
+          "publicPath": "Teamwork_server/604c3945.ea18bdd7.js"
         }
       ]
     },
@@ -294,61 +294,61 @@
         {
           "file": "6875c492.874f4a5b.js",
           "hash": "035df6303c3b333b8321",
-          "publicPath": "/6875c492.874f4a5b.js"
+          "publicPath": "Teamwork_server/6875c492.874f4a5b.js"
         }
       ]
     },
     "16": {
       "js": [
         {
-          "file": "7366bc9d.cfec35ef.js",
-          "hash": "774c35a5522f656351d8",
-          "publicPath": "/7366bc9d.cfec35ef.js"
+          "file": "7366bc9d.626bd89b.js",
+          "hash": "40fb93716e40597e6b80",
+          "publicPath": "Teamwork_server/7366bc9d.626bd89b.js"
         }
       ]
     },
     "17": {
       "js": [
         {
-          "file": "843d79fe.e07107a1.js",
-          "hash": "f50c272db98fa6f6285d",
-          "publicPath": "/843d79fe.e07107a1.js"
+          "file": "7423454b.81594185.js",
+          "hash": "5fdbe831d52b88bcf793",
+          "publicPath": "Teamwork_server/7423454b.81594185.js"
         }
       ]
     },
     "18": {
       "js": [
         {
-          "file": "991b72a1.efc2e496.js",
-          "hash": "e511cbd2f5013c3a3608",
-          "publicPath": "/991b72a1.efc2e496.js"
+          "file": "843d79fe.2d9bb3f5.js",
+          "hash": "ddedc4c0bd19f9e6ff84",
+          "publicPath": "Teamwork_server/843d79fe.2d9bb3f5.js"
         }
       ]
     },
     "19": {
       "js": [
         {
-          "file": "9958fd43.304c7d62.js",
-          "hash": "12628018debec42ed4ea",
-          "publicPath": "/9958fd43.304c7d62.js"
+          "file": "991b72a1.e624ae7e.js",
+          "hash": "390bb0fc90f547fed16a",
+          "publicPath": "Teamwork_server/991b72a1.e624ae7e.js"
         }
       ]
     },
     "20": {
       "js": [
         {
-          "file": "99caf125.481c95b5.js",
-          "hash": "d10186c9c987671498a9",
-          "publicPath": "/99caf125.481c95b5.js"
+          "file": "99caf125.dc5a5de7.js",
+          "hash": "7f0fa39a0c291c4f0c3c",
+          "publicPath": "Teamwork_server/99caf125.dc5a5de7.js"
         }
       ]
     },
     "21": {
       "js": [
         {
-          "file": "a04d17d0.34ab50dc.js",
-          "hash": "d3a98e910cf7f24613ad",
-          "publicPath": "/a04d17d0.34ab50dc.js"
+          "file": "a04d17d0.deb6a488.js",
+          "hash": "9df095554a640c4ace17",
+          "publicPath": "Teamwork_server/a04d17d0.deb6a488.js"
         }
       ]
     },
@@ -357,34 +357,34 @@
         {
           "file": "a6aa9e1f.6c06ee14.js",
           "hash": "0b1086dd508e508ce6aa",
-          "publicPath": "/a6aa9e1f.6c06ee14.js"
+          "publicPath": "Teamwork_server/a6aa9e1f.6c06ee14.js"
         }
       ]
     },
     "23": {
       "js": [
         {
-          "file": "a9ae89f1.82a6e7c2.js",
-          "hash": "feb7b73181ffd94f522a",
-          "publicPath": "/a9ae89f1.82a6e7c2.js"
+          "file": "a9ae89f1.ec62d15b.js",
+          "hash": "a63c0f5b44c6cb4b7c42",
+          "publicPath": "Teamwork_server/a9ae89f1.ec62d15b.js"
         }
       ]
     },
     "24": {
       "js": [
         {
-          "file": "aeda19be.4ee35139.js",
-          "hash": "a83a189e02981afd69fe",
-          "publicPath": "/aeda19be.4ee35139.js"
+          "file": "aeda19be.406582c1.js",
+          "hash": "b12bc8fbddeb5a829576",
+          "publicPath": "Teamwork_server/aeda19be.406582c1.js"
         }
       ]
     },
     "25": {
       "js": [
         {
-          "file": "c0a4ca73.1e679c64.js",
-          "hash": "032e8b949ae45abbc614",
-          "publicPath": "/c0a4ca73.1e679c64.js"
+          "file": "c0a4ca73.216d100d.js",
+          "hash": "0bd3e3cd421dc68b8124",
+          "publicPath": "Teamwork_server/c0a4ca73.216d100d.js"
         }
       ]
     },
@@ -393,93 +393,93 @@
         {
           "file": "ccc49370.7a504e4b.js",
           "hash": "3c31a59eb1b83682125d",
-          "publicPath": "/ccc49370.7a504e4b.js"
+          "publicPath": "Teamwork_server/ccc49370.7a504e4b.js"
         }
       ]
     },
     "27": {
       "js": [
         {
-          "file": "e2e2274d.f6ebd450.js",
-          "hash": "046a7ccf17536d5f58a8",
-          "publicPath": "/e2e2274d.f6ebd450.js"
+          "file": "d5c2732c.08639fc1.js",
+          "hash": "6379c89276791a6c85f8",
+          "publicPath": "Teamwork_server/d5c2732c.08639fc1.js"
         }
       ]
     },
     "28": {
       "js": [
         {
-          "file": "ece76bd1.08ec9cce.js",
-          "hash": "04e9bbce44a2424d30d5",
-          "publicPath": "/ece76bd1.08ec9cce.js"
+          "file": "d8a008a6.43732834.js",
+          "hash": "c2aeb72443e32d03e834",
+          "publicPath": "Teamwork_server/d8a008a6.43732834.js"
         }
       ]
     },
     "29": {
       "js": [
         {
-          "file": "f4217b23.6ee3b206.js",
-          "hash": "ca0d95dfd8cf94daba02",
-          "publicPath": "/f4217b23.6ee3b206.js"
+          "file": "ece76bd1.803c025a.js",
+          "hash": "7b0b2f66dcc07b862f6a",
+          "publicPath": "Teamwork_server/ece76bd1.803c025a.js"
         }
       ]
     },
     "30": {
       "js": [
         {
-          "file": "f47ee060.8d047bff.js",
-          "hash": "e60db778b908c8a467fc",
-          "publicPath": "/f47ee060.8d047bff.js"
+          "file": "f4217b23.d7b8dbd7.js",
+          "hash": "6b2cb94b786e3007ef86",
+          "publicPath": "Teamwork_server/f4217b23.d7b8dbd7.js"
         }
       ]
     },
     "31": {
       "js": [
         {
-          "file": "f9012c36.ec60ee51.js",
-          "hash": "967cd1bdb8269f2a7feb",
-          "publicPath": "/f9012c36.ec60ee51.js"
+          "file": "f9012c36.818db26e.js",
+          "hash": "de4a53eaf8d3340ad4ff",
+          "publicPath": "Teamwork_server/f9012c36.818db26e.js"
         }
       ]
     },
     "32": {
       "js": [
         {
-          "file": "f976f453.e0603f10.js",
-          "hash": "582cd4e662124d578def",
-          "publicPath": "/f976f453.e0603f10.js"
+          "file": "f976f453.97bea7f9.js",
+          "hash": "e33070eac13fea963536",
+          "publicPath": "Teamwork_server/f976f453.97bea7f9.js"
         }
       ]
     },
     "33": {
       "js": [
         {
-          "file": "main.d4ef751e.js",
-          "hash": "617318fd161da10f2884",
-          "publicPath": "/main.d4ef751e.js"
+          "file": "main.1f271867.js",
+          "hash": "8238ffa275a71533dfa1",
+          "publicPath": "Teamwork_server/main.1f271867.js"
         }
       ]
     },
     "34": {
       "js": [
         {
-          "file": "runtime~main.e852ca15.js",
-          "hash": "7818ec727f20b04fa284",
-          "publicPath": "/runtime~main.e852ca15.js"
+          "file": "runtime~main.a8c58d6e.js",
+          "hash": "e7c42f1ee6a10182a877",
+          "publicPath": "Teamwork_server/runtime~main.a8c58d6e.js"
         }
       ]
     },
     "35": {
       "js": [
         {
-          "file": "1be78505.2b9e4421.js",
-          "hash": "7f630153c32c1154f51c",
-          "publicPath": "/1be78505.2b9e4421.js"
+          "file": "1be78505.40978832.js",
+          "hash": "60ad18caceb59172e677",
+          "publicPath": "Teamwork_server/1be78505.40978832.js"
         },
         {
           "file": "35.bf7005d3.js",
           "hash": "69f94bfdb061a5f97929",
-          "publicPath": "/35.bf7005d3.js"
+          "publicPath": "Teamwork_server/35.bf7005d3.js"
         }
       ]
     }
