@@ -1,5 +1,5 @@
 {
-  "permalink": "Teamwork_server/blog/hola",
+  "permalink": "/Teamwork_server/blog/hola",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
   "source": "@site/blog\\2019-05-28-hola.md",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
@@ -7,11 +7,11 @@
   "tags": [
     {
       "label": "hola",
-      "permalink": "Teamwork_server/blog/tags/hola"
+      "permalink": "/Teamwork_server/blog/tags/hola"
     },
     {
       "label": "docusaurus",
-      "permalink": "Teamwork_server/blog/tags/docusaurus"
+      "permalink": "/Teamwork_server/blog/tags/docusaurus"
     }
   ],
   "title": "Hola",
@@ -19,6 +19,6 @@
   "truncated": false,
   "prevItem": {
     "title": "Hello",
-    "permalink": "Teamwork_server/blog/hello-world"
+    "permalink": "/Teamwork_server/blog/hello-world"
   }
 }

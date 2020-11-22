@@ -13,17 +13,17 @@
           {
             "type": "link",
             "label": "Style Guide",
-            "href": "Teamwork_server/docs/"
+            "href": "/Teamwork_server/docs/"
           },
           {
             "type": "link",
             "label": "Document Number 2",
-            "href": "Teamwork_server/docs/doc2"
+            "href": "/Teamwork_server/docs/doc2"
           },
           {
             "type": "link",
             "label": "This is Document Number 3",
-            "href": "Teamwork_server/docs/doc3"
+            "href": "/Teamwork_server/docs/doc3"
           }
         ]
       },
@@ -35,16 +35,16 @@
           {
             "type": "link",
             "label": "Powered by MDX",
-            "href": "Teamwork_server/docs/mdx"
+            "href": "/Teamwork_server/docs/mdx"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "Teamwork_server/docs/": "someSidebar",
-    "Teamwork_server/docs/doc2": "someSidebar",
-    "Teamwork_server/docs/doc3": "someSidebar",
-    "Teamwork_server/docs/mdx": "someSidebar"
+    "/Teamwork_server/docs/": "someSidebar",
+    "/Teamwork_server/docs/doc2": "someSidebar",
+    "/Teamwork_server/docs/doc3": "someSidebar",
+    "/Teamwork_server/docs/mdx": "someSidebar"
   }
 }

@@ -1,33 +1,33 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "Teamwork_server/docs",
+      "path": "/Teamwork_server/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "Teamwork_server/docs",
+          "path": "/Teamwork_server/docs",
           "mainDocId": "doc1",
           "docs": [
             {
               "id": "doc1",
-              "path": "Teamwork_server/docs/",
+              "path": "/Teamwork_server/docs/",
               "sidebar": "someSidebar"
             },
             {
               "id": "doc2",
-              "path": "Teamwork_server/docs/doc2",
+              "path": "/Teamwork_server/docs/doc2",
               "sidebar": "someSidebar"
             },
             {
               "id": "doc3",
-              "path": "Teamwork_server/docs/doc3",
+              "path": "/Teamwork_server/docs/doc3",
               "sidebar": "someSidebar"
             },
             {
               "id": "mdx",
-              "path": "Teamwork_server/docs/mdx",
+              "path": "/Teamwork_server/docs/mdx",
               "sidebar": "someSidebar"
             }
           ]

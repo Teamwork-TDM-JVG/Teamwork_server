@@ -1,5 +1,5 @@
 {
-  "permalink": "Teamwork_server/blog/2020/04/14/blog-plugin",
+  "permalink": "/Teamwork_server/blog/2020/04/14/blog-plugin",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2020-04-14-blog-plugin.md",
   "source": "@site/blog\\2020-04-14-blog-plugin.md",
   "description": "You can use our blog plugin to do your posts",
@@ -7,22 +7,18 @@
   "tags": [
     {
       "label": "blog",
-      "permalink": "Teamwork_server/blog/tags/blog"
+      "permalink": "/Teamwork_server/blog/tags/blog"
     },
     {
       "label": "docusaurus",
-      "permalink": "Teamwork_server/blog/tags/docusaurus"
+      "permalink": "/Teamwork_server/blog/tags/docusaurus"
     }
   ],
   "title": "Blog Plugin",
   "readingTime": 0.145,
   "truncated": true,
-  "prevItem": {
-    "title": "A large blog post",
-    "permalink": "Teamwork_server/blog/2020/04/14/large-blog-post"
-  },
   "nextItem": {
-    "title": "Welcome",
-    "permalink": "Teamwork_server/blog/welcome"
+    "title": "A large blog post",
+    "permalink": "/Teamwork_server/blog/2020/04/14/large-blog-post"
   }
 }
