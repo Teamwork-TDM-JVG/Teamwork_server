@@ -50,4 +50,12 @@ module.exports = gql`
     email: String
     password: String
   }
+
+  type ProjectIdea {
+    id: ID  
+    title: String
+    description: String
+    team: [String]
+    # author: [User]
+  }
 `;

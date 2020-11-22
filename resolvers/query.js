@@ -6,11 +6,13 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const { AuthenticationError } = require('apollo-server');
 
-const { User } = require('../mongo/models.js');
+const { projectIdeaSchema } = require('../mongo/schemas/projectIdea');
 
 module.exports = {
   Query: {
-    // e.g. dummies: () => dummies
+    getAllProjectIdeas: async (parent, params, context) => {
+      return projectIdeaSchema.find();
+    },
     login: async (parent, { user }, context) => {
       // destructure the user
       const { email, password } = user;

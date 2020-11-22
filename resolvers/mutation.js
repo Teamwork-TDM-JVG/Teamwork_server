@@ -4,12 +4,25 @@
 const { ApolloError, AuthenticationError } = require('apollo-server');
 const pubsub = require('./pubsub');
 const bcrypt = require('bcrypt');
-
+const { projectIdeaSchema } = require('../mongo/schemas/projectIdea');
 const { User } = require('../mongo/models');
 
 module.exports = {
   Mutation: {
-    // e.g. addDummy: (parent, { dummy }, { userAllowed }) => {}
+    createProjectIdea: async (parent, {projectIdeaInput}, context) => {
+      const {title, description, team} = projectIdeaInput
+
+      const ProjectIdea = new projectIdeaSchema({
+        title,
+        description,
+        team
+      })
+
+      const newProjectIdea = ProjectIdea.save();
+      console.log(newProjectIdea);
+      return newProjectIdea;
+    },
+
     register: async (parent, { user }) => {
       // destructure user
       const { email, password } = user;

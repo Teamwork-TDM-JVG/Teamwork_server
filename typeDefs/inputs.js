@@ -20,4 +20,11 @@ module.exports = gql`
     url: String!
     alt: String
   }
+
+  input ProjectIdeaInput {
+    id: ID
+    title: String
+    description: String
+    team: [String]
+  }
 `;
