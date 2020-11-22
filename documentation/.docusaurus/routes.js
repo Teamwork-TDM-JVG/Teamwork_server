@@ -9,7 +9,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','a6c'),
+  component: ComponentCreator('/blog','4c2'),
   exact: true,
 },
 {
@@ -39,12 +39,12 @@ export default [
 },
 {
   path: '/blog/tags/blog',
-  component: ComponentCreator('/blog/tags/blog','a54'),
+  component: ComponentCreator('/blog/tags/blog','e9c'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','655'),
+  component: ComponentCreator('/blog/tags/docusaurus','81f'),
   exact: true,
 },
 {

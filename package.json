@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:install": "cd documentation && npm install",
     "docs:start": "cd documentation && npm start",
-    "docs:build": "cd documentation && npm run build && cd ../ && cpy documentation/build docs && cd .."
+    "docs:build": "cd documentation && npm run build && cd ../ && Xcopy .\\documentation\\build .\\docs /E /H /C /I /D && cd .."
   },
   "keywords": [],
   "author": "",
