@@ -64,7 +64,7 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <div className={styles.hero}>
-        <header style={{marginTop: "2rem", marginBottom: "1rem"}}>
+        <header style={{marginTop: "2rem", marginBottom: "1rem", textAlign: 'center'}}>
           <h1>{siteConfig.title}</h1>
           <p>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
