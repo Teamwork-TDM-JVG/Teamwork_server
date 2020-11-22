@@ -8,4 +8,3 @@ This template can be used to start with your GraphQL API!
 2. Add, if needed a `.env` file to change the GraphQL port
 3. Open up GraphQL playground by surfing `http://localhost:PORT`
 
-TEST
